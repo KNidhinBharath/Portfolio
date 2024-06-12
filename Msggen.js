@@ -2,7 +2,6 @@ const topic = ['Astrology','Inspirational','Jokes']
 
 const randTop = () => {
     const rannum = Math.floor(Math.random() * 3)
-    //console.log(rannum)
     return topic[rannum];
 }
 const topSel =() => {
@@ -48,5 +47,4 @@ const jokes = () => {
     console.log('Jokes: '+arr1[ran1])
 }
 
-//console.log(randTop())
 topSel()
